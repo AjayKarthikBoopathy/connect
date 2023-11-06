@@ -1,7 +1,7 @@
 import express from "express";
 //import { createConnection } from "./userDb";
 import { MongoClient } from "mongodb";
-import mongoose from "mongoose";
+
 // const dotenv = require("dotenv");
 // const mongoose = require("mongoose");
 
