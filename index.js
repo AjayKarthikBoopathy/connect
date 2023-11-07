@@ -7,11 +7,13 @@ import { MongoClient } from "mongodb";
 
 import { getGenre } from "./amazon1.js";
 import routes from "./router.js"
+import cors from "cors";
 //import data from "./amazon1";
 
 
 
 const app = express();
+app.use(cors())
 
 
 app.get("/", (req, res)=>{
